@@ -1,0 +1,390 @@
+/*
+	//
+	// 	POLICE
+	//
+*/
+
+@font-face {
+	font-family: 'AvenirNextLTPro-Bold';
+	src: url('police/AvenirNextLTPro-Bold.otf');
+}
+@font-face {
+	font-family: 'AvenirNextLTPro-CnIt';
+	src: url('police/AvenirNextLTPro-CnIt.otf');
+}
+
+@font-face {
+	font-family: "AvenirNextLPro-Demi";
+	src: url('police/AvenirNextLTPro-Demi.otf');
+}
+@font-face {
+	font-family: "AvenirNextLTPro-Regular";
+	src: url('police/AvenirNextLTPro-Regular.otf');
+}
+@font-face {
+	font-family: "Omnes-Medium";
+	src: url('police/Omnes-Medium.otf');
+}
+
+@font-face {
+	font-family: "Omnes-Semibold";
+	src: url('police/Omnes-Semibold.otf');
+}
+
+
+/*
+	//
+	// 	GENERAL
+	//
+*/
+
+html, body { 
+   margin:0; 
+   padding:0; 
+   height:100%; 
+} 
+
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+	z-index: 10;
+}
+
+
+/*
+	//
+	//	 HEADER
+	//
+*/
+#fondEntete{
+	margin-top: 150px;
+	position: absolute;
+	background-repeat: no-repeat;
+	z-index: -1;
+	max-width: 100%;
+	height: auto;
+	display: block;
+	width:80%;
+	min-height: 500px;
+	margin-left: 10%
+	margin-right:10%;
+
+}
+#entete{
+    text-align:center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+#entete .logo{
+	margin-right: 100px;
+}
+#entete text{
+	font-family: Omnes-Medium;
+	font-size: 25px;
+}
+#entete #sommaire{
+	font-family: AvenirNextLPro-Demi;
+	font-size: 25px;
+}
+#entete .choixSommaire:hover{
+	text-decoration: underline;
+}
+#entete .choixSommaire{
+	margin-left: 100px;
+	margin-right: 0px;
+}
+
+/*
+	//
+	//	 FOOTER
+	//
+*/
+#pied{
+	margin-top: -2px;
+	background-color:rgb(20, 18, 21);
+   	bottom:0;
+}
+#pied .reseauxSociaux{
+	padding: 30px;
+}
+
+#pied .reseauxSociaux a{
+	margin-left: 25px;
+	margin-right:  25px;
+
+}
+#pied .logo{
+	padding-bottom: 10px;
+
+}
+
+#pied .valeur{
+	font-family: AvenirNextLTPro-Regular;
+	font-size: 14px;
+	color: white;
+	padding: 10px;
+}
+#pied .adresse{
+	font-family: AvenirNextLTPro-Regular;
+	font-size: 10px;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 20px;
+
+}
+
+/*
+	//
+	//	 ELEMENT
+	//
+*/
+
+#firstElement{
+	margin-top: 150px;
+    text-align:center;
+}
+#secondElement{
+	margin-top: 300px;
+    text-align:center;
+}
+
+.TitreBlanc{
+	font-family: Omnes-Medium;
+	font-size: 25px;
+	padding-bottom: 50px;
+	color:white;
+}
+.texteBlanc{
+	font-family: AvenirNextLPro-Regular;
+	font-size: 20px;
+	color:#FFFAF0;
+	width:400px;
+}
+.texteNoir{
+	font-family: AvenirNextLPro-Regular;
+	font-size: 20px;
+	color:black;
+	width:400px;
+}
+
+.ButtonBlanc{
+	margin-top: 80px;
+	margin-bottom: 50px;
+	background-color: white; /* Green */
+  	border: none;
+  	color: black;
+  	padding: 10px 25px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+	font-family: AvenirNextLPro-Regular;
+  	font-size: 18px;
+  	border-radius: 18px;
+}
+.flecheBas{
+	margin-top: 50px;
+	margin-bottom: 150px;
+
+}
+.TitreNoir{
+	margin-bottom: 50px;
+	background-color: rgb(36, 28, 36);
+  	border: none;
+  	color: white;
+  	padding: 10px 25px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+	font-family: Omnes-Medium;
+  	font-size: 30px;
+  	border-radius: 20px;
+}
+.separateur{
+	height: 150px;
+}
+
+/*
+	//
+	//	 A Propos
+	//
+*/
+#service{
+
+}
+
+
+.element{
+	display:inline-block;
+	vertical-align: top;
+	width:300px;
+	height: 400px;
+	margin-top: 20px;
+	margin-left: ;
+	margin-right: ;
+
+}
+
+#service .service .img{
+}
+
+.element .titre{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: AvenirNextLPro-Demi;
+	font-size: 22px;
+}
+.element .com{
+	font-family: AvenirNextLTPro-Regular;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	width: 250px;
+}
+.elementService{
+	display:inline-block;
+    vertical-align: middle;
+	width:300px;
+	height: 350px;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+.elementService .titreService{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: AvenirNextLPro-Demi;
+	font-size: 25px;
+}
+.elementService .comService{
+	font-family: AvenirNextLTPro-Regular;
+	font-size: 20px;
+	padding-top: 10px;
+	width: 350px;
+}
+.elementService .finComService{
+
+}
+
+
+
+
+
+#fondEquipe{
+	margin-top: 4%;
+	width: 100%;
+	height: 200px;
+	margin-bottom: -2px;
+}
+#equipe{
+	background-color:rgb(33, 28, 34);
+	padding-bottom: 80px;
+}
+#equipe .titre{
+  	font-size: 40px;
+	font-family: Omnes-Semibold;
+	color : white;
+}
+#equipe .equipe{
+	display:inline-block;
+	vertical-align: top;
+	color: white;
+	width:300px;
+	margin-top: 60px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+
+#equipe .nom{
+	margin-top: 20px;
+	font-family: AvenirNextLTPro-Regular;
+	font-size: 20px;
+}
+
+#equipe .texte{
+	margin-top: 10px;
+	font-family: AvenirNextLTPro-CnIt;
+	font-size: 18px;
+}
+
+/*
+	//
+	//	 A Reference
+	//
+*/
+.texteReference{
+	margin:80px;
+}
+#imagesReferences{
+	width:80%;
+}
+.imagesReferences img{
+	margin-top: 40px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 40px;
+}
+.traitReference{
+	margin: 50px;
+}
+
+#contenueService{
+	margin-top: 150px;
+	margin-bottom: 100px;
+	margin-left: 100px;
+	margin-right:100px;
+}
+#contenueContact{
+	margin-top:100px;
+	margin-bottom: 100px;
+	margin-left:300px;
+	margin-right:300px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: : 300px;
+	padding-right: : 300px;
+	background-color: rgb(233,233,233);
+}
+#contenueContact .champ input,textarea{
+	border-top:  none;
+	border-left: none;
+	border-right: none;
+	border-color: rgb(128,202,189);
+  	outline-color: rgb(117,186,201);
+
+  	width:80%;
+  	
+  	margin-top:30px;
+  	margin-bottom: 30px;
+  	background-color:rgb(233,233,233); 
+}
+#contenueContact .champ input{
+	height:40px;
+}
+#contenueContact .champ input[type=text],input[type=email],textarea{
+  	font-family: AvenirNextLTPro-Regular;
+	font-size: 20px;
+}
+#contenueContact .champ ::placeholder {
+  	color: rgb(30,28,31);
+  	font-family: Omnes-Medium;
+	font-size: 20px;
+	vertical-align: top;
+
+}
+#contenueContact .champ .message{
+	height:400px;
+	border: outset-bottom 10px;
+}
+#contenueContact input[type=submit]{
+  	background-color:rgb(117,186,201); 
+  	border: none;
+  	font-family: Omnes-Medium;
+	font-size: 24px;
+	color: white;
+
+	height:50px;
+	width: 40%;
+}
